@@ -1,0 +1,50 @@
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    
+}
+
+.box {
+    text-decoration: none;
+    margin: 0;
+    height: 100px;
+    width: 75%;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid rgb(201, 200, 200);
+    padding: 5px;
+    flex-direction: column;
+    
+}
+
+.icon-container {
+    width: 1%;
+    float: left;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 0%;
+    
+}
+
+.container {
+    width: 80%;
+    float: left;
+}
+
+
+
+.title {
+    padding-left: 45px;
+    color: rgb(71, 71, 184);
+}
+
+.description {
+    padding-left: 45px;
+}
+
+
