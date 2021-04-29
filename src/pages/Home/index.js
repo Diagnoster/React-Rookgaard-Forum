@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import munster from '../../images/munster.png';
 import bossmunster from '../../images/bossmunster.gif';
+import bosssheng from '../../images/bosssheng.gif';
+import citizen from '../../images/citizen.gif';
+import { Link } from "react-router-dom"
+
+
 import './home.css';
 
 export default function Home() {
@@ -14,8 +18,28 @@ export default function Home() {
                     <img src={bossmunster} className="gif-munster" alt="munster gif" />
                 </div>
                 <div className="container">
-                    <h3 className="title">Munster frequency and loot static</h3>
+                    <Link to="/munster" className="title">Munster frequency and loot static</Link>
                     <p className="description">Analyze the graph and statistics of the most wanted rookgaard mouse...</p>
+                </div>
+            </div>
+
+            <div className="box">
+                <div className="icon-container">
+                    <img src={bosssheng} className="gif-munster" alt="munster gif" />
+                </div>
+                <div className="container">
+                    <Link to="/sheng" className="title">Apprentice Sheng frequency and loot static</Link>
+                    <p className="description">Analyze the graph and statistics of the most feared wizard in the rookgaard...</p>
+                </div>
+            </div>
+
+            <div className="box">
+                <div className="icon-container">
+                    <img src={citizen} className="gif-citizen" alt="citizen gif" />
+                </div>
+                <div className="container">
+                    <Link to="/citizen" className="title">How to make your addon complete</Link>
+                    <p className="description">Best routes to assemble your first outfit</p>
                 </div>
             </div>
 
