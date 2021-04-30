@@ -1,3 +1,7 @@
+@font-face {
+    font-family: hestina;
+    src: url("../../assets/fonts/hestinas.otf");
+}
 
 .posts {
     display: flex;
